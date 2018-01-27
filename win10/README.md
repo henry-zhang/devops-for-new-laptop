@@ -24,7 +24,7 @@ bash.exe ~ -c zsh -cur_console:p:n
 
 curl https://releases.rancher.com/install-docker/17.03.sh | sh
 
-#export remote docker engine 
+#use remote docker api,change the ip to your virtualbox ubuntu linux server ip
 
 echo "export DOCKER_HOST=tcp://192.168.207.4:2375" >> ~/.zshrc
 
